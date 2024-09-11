@@ -1,0 +1,25 @@
+.menu{
+  width: 20%;
+  position: fixed;
+  height: 100vh;
+  left: -100%;
+  transition: 0.5s;
+  background-color: yellow;
+  text-align: left;
+}
+.menu ul li {
+  list-style: none;
+  padding: 10px 0px;
+}
+.activeMenu{
+  left : 0%
+}
+.micon{
+  position: absolute;
+  right: 10px;
+  font-size:xx-large;
+  color:yellow;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
